@@ -1,0 +1,86 @@
+{#
+Theme Name: Wordpress Locations Widget
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: Bill Gardner
+Author URI: http://williamjgardner.com/
+Description: HTML code to provide three Google Maps location panels in a Wordpress text widget.  The attached CSS style sheet must be used in conjunction.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+#}
+
+{# MAIN SECTION TITLE #}
+
+<div class="location_title">
+  <h2 id="section11_sectiontitle" class="section_title">OUR LOCATIONS</h2>
+</div>
+
+{# MAP LOCATION ONE #}
+
+<div class="location_container">
+<div class="map1">
+  <div class="map_title">
+    <h2>COACHELLA VALLEY</h2> {# CITY ONE #}
+    <h4></h4> {# ADDRESS #}
+  </div>
+
+	{# GOOGLE MAPS CODE #}
+  <div class="overlay" onClick="style.pointerEvents='none'"></div>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.7669639092765!2d-116.36136588490882!3d33.76668728068459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dafc5a94382c97%3A0x6c5f41e6f2b7596d!2sCoachella+Valley!5e0!3m2!1sen!2sus!4v1490041842907" width="350" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+	{# END OF GOOGLE MAPS CODE #}
+
+		<div class="loc_contact">
+      <h3>Phone: </h3> {# PHONE, FAX, TOLL FREE NUMBER #}
+      <a id="googplus" href="https://plus.google.com"><img src="http://edelmanlaw.wpengine.com/wp-content/uploads/2017/03/google-plus-64-1.png" alt="Google+"></a>
+    </div>
+</div>
+
+{# END OF MAP LOCATION ONE #}
+
+{# MAP LOCATION TWO #}
+
+<div class="map2">
+  <div class="map_title">
+    <h2>FRESNO</h2> {# CITY TWO #}
+    <h4></h4> {# ADDRESS #}
+  </div>
+
+	{# GOOGLE MAPS CODE #}
+  <div class="overlay" onClick="style.pointerEvents='none'"></div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111901.87068197693!2d-119.86406029868662!3d36.77997236935025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945de1549e4e9d%3A0x7b12406449a3b811!2sFresno%2C+CA!5e0!3m2!1sen!2sus!4v1490041959444" width="350" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+	{# END OF GOOGLE MAPS CODE #}
+
+		<div class="loc_contact">
+      <h3>Phone: </h3> {# PHONE, FAX, TOLL FREE NUMBER #}
+      <a id="googplus" href="https://plus.google.com/"><img src="http://edelmanlaw.wpengine.com/wp-content/uploads/2017/03/google-plus-64-1.png" alt="Google+"></a>
+    </div>
+</div>
+
+{# END OF MAP LOCATION TWO #}
+
+{# MAP LOCATION THREE #}
+
+<div class="map3">
+  <div class="map_title">
+    <h2>SHERMAN OAKS</h2> {# CITY THREE #}
+    <h4></h4> {# ADDRESS #}
+  </div>
+
+	{# GOOGLE MAPS CODE #}
+  <div class="overlay" onClick="style.pointerEvents='none'"></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52827.95209154371!2d-118.48230628472793!3d34.15281417799472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c297dba79cbcf3%3A0x39b4e3f8071ff16!2sSherman+Oaks%2C+Los+Angeles%2C+CA!5e0!3m2!1sen!2sus!4v1490041997569" width="350" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+	{# END OF GOOGLE MAPS CODE #}
+
+		<div class="loc_contact">
+      <h3>Phone: </h3> {# PHONE, FAX, TOLL FREE NUMBER #}
+      <a id="googplus" href="https://plus.google.com/"><img src="http://edelmanlaw.wpengine.com/wp-content/uploads/2017/03/google-plus-64-1.png" alt="Google+"></a>
+    </div>
+</div>
+<span class="stretch"></span> {# Span is for CSS spacing of each panel.  DO NOT EDIT OR PANELS WILL NOT DISPLAY PROPERLY!!! #}
+</div>
+
+{# END OF MAP LOCATION THREE #}
+{# THIS CODE CAN BE COPIED FOR AS MANY LOCATION AS DESIRED, BUT WILL NEED TO HAVE THE CSS ADJUSTED IF CHANGED FROM THREE #}
