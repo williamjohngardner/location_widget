@@ -1,47 +1,5 @@
-/*#text-14 {
-	margin: 0 125px;
-}
-
-#text-14 img {
-	margin-top: 40px;
-	margin-bottom: 30px;
-}
-
-#text-14 ul {
-	vertical-align: middle;
-	margin-top: 7%;
-	float: right;
-}
-
-#text-14 li {
-	color: #a21c26;
-	font-weight: 700;
-	font-size: 1.25em;
-	display: inline-block;
-	margin: 0 15px;
-}
-
-#pre_footer_cta_area {
-	background-color: #999999;
-	height: auto;
-	border-bottom: none;
-	padding-top: 0;
-}
-
-#text-15 {
-	margin: 0px 50px;
-}
-
-#text-15 p {
-	width: 45%;
-	display: inline;
-	float: right;
-}*/
-
-.footerlocalities {
-	padding-top: 20px;
-}
-
+/*-------------------------------------*/
+/* WRAPPER FOR LOCATION PANELS SECTION */
 #text-16 {
 	background-image: url('/wp-content/uploads/2016/11/miami-skyline1_bw.jpg');
 	overflow: hidden;
@@ -50,6 +8,33 @@
 	border-top: 10px solid #a21c26;
 	border-bottom: 10px solid #a21c26;
 }
+/* END OF WRAPPER FOR LOCATION PANELS SECTION */
+/*--------------------------------------------*/
+
+
+/*----------------------------------------------------------------*/
+/* STYLING FOR SPACING THREE LOCATION PANELS EVENLY ON THE SCREEN */
+.location_container {
+	height: auto;
+    margin-right: 7%;
+	margin-left: 7%;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.stretch {
+	width: 100%;
+	display: inline-block;
+}
+
+.map1, .map2, .map3 {
+	width: 350px;
+	vertical-align: top;
+    display: inline-block;
+}
+/* END OF STYLING FOR SPACING THREE LOCATION PANELS EVENLY ON THE SCREEN */
+/*-----------------------------------------------------------------------*/
 
 .location_title {
 	font-family: 'Oswald', sans-serif;
@@ -61,13 +46,8 @@
   	font-weight: 700;
 }
 
-.location_container {
-	height: auto;
-    margin-right: 7%;
-	margin-left: 7%;
-    text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
+.footerlocalities {
+	padding-top: 20px;
 }
 
 .location_container h2 {
@@ -85,17 +65,6 @@
 .map_title {
 	background: #ffffff;
 	padding: 10px;
-}
-
-.map1, .map2, .map3 {
-	width: 350px;
-	vertical-align: top;
-    display: inline-block;
-}
-
-.stretch {
-	width: 100%;
-	display: inline-block;
 }
 
 .loc_contact{
